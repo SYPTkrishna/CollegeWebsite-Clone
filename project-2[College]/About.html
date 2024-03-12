@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYPT</title>
+    <link rel="Icon" href="eduford_img/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="eduford_img/logo.png" alt="logo.png" >
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG </a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About us</h1>
+    </section>
+
+    <!-- About ussssssssss -->
+    
+
+    <section class="About-us">
+        <div class="row">
+            <div class="about-col">
+                <h1> We are the world's largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores esse totam quasi, aut incidunt ducimus itaque alias laboriosam soluta adipisci doloremque deleniti molestiae quidem, tempore modi quae blanditiis ipsam quos.</p>
+                <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="eduford_img/about.jpg" alt="About us image">
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-----------------FOTTER-------- -->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi consectetur cumque soluta nemo obcaecati eveniet iusto culpa sit minus.<br> Et modi totam accusantium saepe ab amet praesentium eligendi sunt necessitatibus!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+         <p>Made with <i class="fa fa-heart-o"></i> by easy tuorial</p>
+    </section>
+
+
+
+    <!-- Javascript for menu in/out -->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showmenu()
+        {
+            navLinks.style.right="0";
+        }
+        function hidemenu()
+        {
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
